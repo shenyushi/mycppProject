@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/LinearEquations.h
+iostream
+-
+vector
+-
+
+F:/code/cppproject/LinearEquations/Src/main.cpp
+iostream
+-
+LinearEquations.h
+F:/code/cppproject/LinearEquations/Src/LinearEquations.h
+

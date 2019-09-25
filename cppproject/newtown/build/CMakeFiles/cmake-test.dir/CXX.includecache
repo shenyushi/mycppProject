@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/newtown.h
+iostream
+-
+list
+-
+math.h
+-
+iomanip
+-
+
+F:/code/cppproject/newtown/Src/newtown.cpp
+newtown.h
+F:/code/cppproject/newtown/Src/newtown.h
+

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/code/cppproject/newtown/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\cppproject\\newtown\\Src\\main.cpp",
+  "file": "F:/code/cppproject/newtown/Src/main.cpp"
+},
+{
+  "directory": "F:/code/cppproject/newtown/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\newtown.cpp.obj -c F:\\code\\cppproject\\newtown\\Src\\newtown.cpp",
+  "file": "F:/code/cppproject/newtown/Src/newtown.cpp"
+}
+]

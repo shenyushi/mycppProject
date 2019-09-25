@@ -1,0 +1,17 @@
+[
+{
+  "directory": "F:/code/cppproject/homework3/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\LinearEquations.cpp.obj -c F:\\code\\cppproject\\homework3\\Src\\LinearEquations.cpp",
+  "file": "F:/code/cppproject/homework3/Src/LinearEquations.cpp"
+},
+{
+  "directory": "F:/code/cppproject/homework3/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\Polynomial.cpp.obj -c F:\\code\\cppproject\\homework3\\Src\\Polynomial.cpp",
+  "file": "F:/code/cppproject/homework3/Src/Polynomial.cpp"
+},
+{
+  "directory": "F:/code/cppproject/homework3/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\cppproject\\homework3\\Src\\main.cpp",
+  "file": "F:/code/cppproject/homework3/Src/main.cpp"
+}
+]
