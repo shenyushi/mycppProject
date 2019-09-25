@@ -1,0 +1,3 @@
+F:/code/cppproject/Polynomial/build/CMakeFiles/cmake-test.dir
+F:/code/cppproject/Polynomial/build/CMakeFiles/edit_cache.dir
+F:/code/cppproject/Polynomial/build/CMakeFiles/rebuild_cache.dir

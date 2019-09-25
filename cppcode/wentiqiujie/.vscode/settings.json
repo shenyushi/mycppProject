@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "iosfwd": "cpp",
+        "iomanip": "cpp"
+    }
+}
