@@ -12,33 +12,9 @@ iostream
 vector
 -
 
-../Inc/Polynomial.h
-iostream
--
-list
--
-math.h
--
-iomanip
--
-
 F:/code/cppproject/homework3/Src/LinearEquations.cpp
 LinearEquations.h
 F:/code/cppproject/homework3/Src/LinearEquations.h
 math.h
 F:/code/cppproject/homework3/Src/math.h
-
-F:/code/cppproject/homework3/Src/Polynomial.cpp
-Polynomial.h
-F:/code/cppproject/homework3/Src/Polynomial.h
-
-F:/code/cppproject/homework3/Src/main.cpp
-LinearEquations.h
-F:/code/cppproject/homework3/Src/LinearEquations.h
-Polynomial.h
-F:/code/cppproject/homework3/Src/Polynomial.h
-iostream
--
-iomanip
--
 

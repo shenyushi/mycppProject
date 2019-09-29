@@ -2,7 +2,9 @@
 using namespace std;
 #include <vector>
 
-class error2{};
+class error2
+{
+};
 
 class LinearEquations
 {
@@ -16,12 +18,13 @@ private:
     vector<vector<part>> tmp;
     vector<double> b;
     double *A;
-    int haveX[101];
+    int haveX[100];
     double *solution;
     void printN(double);
 
 public:
     LinearEquations();
+    ~LinearEquations();
     void addEquation(string str);
     void calculate();
 };

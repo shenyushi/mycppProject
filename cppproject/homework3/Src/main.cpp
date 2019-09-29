@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    bool exercise1 = true;
+    bool exercise1 = false;
     if (exercise1)
     {
         string str;

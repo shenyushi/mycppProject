@@ -113,7 +113,11 @@ double Polynomial::value(double x) const
     return result;
 }
 
-NewTown::NewTown(const Polynomial &p, double a, double b) : formula(p), a(a), b(b) {}
+NewTown::NewTown(const Polynomial &p, double a, double b) : formula(p), a(a), b(b)
+{
+    if (a > b)
+        throw error1();
+}
 
 double NewTown::calculate()
 {
@@ -121,11 +125,13 @@ double NewTown::calculate()
     if (t1 > 0 || t1 == 0)
         throw error1();
     Polynomial df = formula.derivation();
-    if (df.value(a) * df.value(b) < 0)
+    if (df.value(a) * df.value(b) <= 0)
         throw error1();
-	Polynomial ddf = formula.derivation();
+    bool flag1 = df.value(a) > 0;
+    Polynomial ddf = formula.derivation();
     if (ddf.value(a) * ddf.value(b) < 0)
         throw error1();
+    bool flag2 = ddf.value(a) > 0;
     double t2 = a - formula.value(a) / df.value(a), t3 = b - formula.value(b) / df.value(b);
     if (t2 > b || t3 < a)
         throw error1();
@@ -135,6 +141,10 @@ double NewTown::calculate()
     {
         double fk = formula.value(k), dfk = df.value(k);
         k1 = -fk / dfk + k;
+        if ((df.value(k1) > 0) ^ flag1)
+            throw error1();
+        if ((ddf.value(k1) > 0) ^ flag2)
+            throw error1();
         if (abs(k1 - k) < e)
             break;
         k = k1;
@@ -147,13 +157,14 @@ void NewTown::printNum(double v)
     bool minus = false;
     if (v < 0)
     {
-        minus = true;
+        if (v <= -0.0001)
+            minus = true;
         v = -v;
     }
     long long int integer = floor(v);
     double decimal = v - integer;
     long long int tmp = decimal * 1000000;
-    int d[] = {int(tmp / 100000), int(tmp / 10000 % 10), int(tmp / 1000 % 10), int(tmp / 100 % 10), int(tmp / 10 % 10),int( tmp % 10)};
+    int d[] = {int(tmp / 100000), int(tmp / 10000 % 10), int(tmp / 1000 % 10), int(tmp / 100 % 10), int(tmp / 10 % 10), int(tmp % 10)};
     if (d[5] == 9 && d[4] == 9 && d[3] == 9)
     {
         d[3] = 0;
