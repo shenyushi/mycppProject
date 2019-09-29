@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Launch Bjarte's app",
+            "type": "node",
+            "program": "app.js",
+            "stopOnEntry": true,
+            "args": [],
+            "cwd": ".",
+            "runtimeExecutable": null,
+            "env": {},
+            "sourceMaps": false
+        },
+        {
+            "name": "Attach",
+            "type": "node",
+            "address": "localhost",
+            "port": 5858,
+            "sourceMaps": false
+        }
+    ]
+}
