@@ -3,9 +3,9 @@ function drawMaze() {
     for (var i = 0; i < cols; i++) {
         for (var j = 0; j < rows; j++) {
             switch (maze[i][j]) {
-                case 0: ctx.fillStyle = "black"; break;
-                case 1: ctx.fillStyle = "green"; break;
-                case 2: ctx.fillStyle = "red"; break;
+                case 0: ctx.fillStyle = "black"; break; // 墙壁
+                case 1: ctx.fillStyle = "green"; break; //空
+                case 2: ctx.fillStyle = "red"; break; 
                 case 3: ctx.fillStyle = "yellow"; break;
                 case 4: ctx.fillStyle = "#500000"; break;
             }
@@ -51,7 +51,6 @@ function solveMaze() {
         maze[start.x][start.y] = 4;
         start = stack.pop();
     }
-
     drawMaze();
     requestAnimationFrame(solveMaze);
 }
@@ -70,7 +69,7 @@ function getCursorPos(event) {
 }
 function getNeighbours(sx, sy, a) {
     var n = [];
-    if (sx - 1 > 0 && maze[sx - 1][sy] == a && sx - 2 > 0 && maze[sx - 2][sy] == a) {
+    if (sx - 1 > 0 && maze[sx - 1][sy] == a && sx - 2 > 0 && maze[sx - 2][sy] == a) {  //边界上空一格
         n.push({ x: sx - 1, y: sy }); n.push({ x: sx - 2, y: sy });
     }
     if (sx + 1 < cols - 1 && maze[sx + 1][sy] == a && sx + 2 < cols - 1 && maze[sx + 2][sy] == a) {
@@ -105,9 +104,9 @@ function createMaze() {
         }
         start = stack.pop();
     } else {
-        var i = 2 * Math.floor(Math.random() * (neighbours.length / 2))
+        var i = 2 * Math.floor(Math.random() * (neighbours.length / 2)) //四个方向随机
         l = neighbours[i]; maze[l.x][l.y] = 0;
-        l = neighbours[i + 1]; maze[l.x][l.y] = 0;
+        l = neighbours[i + 1]; maze[l.x][l.y] = 0; 
         start = l
         stack.push(start)
     }
@@ -115,13 +114,13 @@ function createMaze() {
     requestAnimationFrame(createMaze);
 }
 function createCanvas(w, h) {
-    var canvas = document.createElement("canvas");
+    var canvas = document.createElement("canvas"); 
     wid = w; hei = h;
     canvas.width = wid; canvas.height = hei;
     canvas.id = "canvas";
-    ctx = canvas.getContext("2d");
+    ctx = canvas.getContext("2d"); //拿到canvas的2d对象
     ctx.fillStyle = "black"; ctx.fillRect(0, 0, wid, hei);
-    document.body.appendChild(canvas);
+    document.body.appendChild(canvas); //在html中加入canvas
 }
 function init() {
     cols = 120; rows = 80;
@@ -129,7 +128,7 @@ function init() {
     maze = createArray(cols, rows);
     start.x = Math.floor(Math.random() * (cols / 2));
     start.y = Math.floor(Math.random() * (rows / 2));
-    if (!(start.x & 1)) start.x++; if (!(start.y & 1)) start.y++;
+    if (!(start.x & 1)) start.x++; if (!(start.y & 1)) start.y++;  //change start.x and start.y to odd number
     maze[start.x][start.y] = 0;
     createMaze();
 }
