@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/code/cppproject/LinearRegression/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\LinearRegression.cpp.obj -c F:\\code\\cppproject\\LinearRegression\\Src\\LinearRegression.cpp",
+  "file": "F:/code/cppproject/LinearRegression/Src/LinearRegression.cpp"
+},
+{
+  "directory": "F:/code/cppproject/LinearRegression/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\cppproject\\LinearRegression\\Src\\main.cpp",
+  "file": "F:/code/cppproject/LinearRegression/Src/main.cpp"
+}
+]

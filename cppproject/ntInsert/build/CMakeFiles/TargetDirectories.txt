@@ -1,0 +1,3 @@
+F:/code/cppproject/ntInsert/build/CMakeFiles/cmake-test.dir
+F:/code/cppproject/ntInsert/build/CMakeFiles/edit_cache.dir
+F:/code/cppproject/ntInsert/build/CMakeFiles/rebuild_cache.dir

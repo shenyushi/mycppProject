@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/ntInsert.h
+iostream
+-
+vector
+-
+algorithm
+-
+string
+-
+
+F:/code/cppproject/ntInsert/Src/main.cpp
+iostream
+-
+ntInsert.h
+F:/code/cppproject/ntInsert/Src/ntInsert.h
+string
+-
+
