@@ -1,2 +1,0 @@
-# mycppProject
-code during learning
