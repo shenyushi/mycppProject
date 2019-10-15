@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/code/Cppproject/test/Src/car.cpp" "F:/code/Cppproject/test/build/CMakeFiles/cmake-test.dir/Src/car.cpp.obj"
-  "F:/code/Cppproject/test/Src/main.cpp" "F:/code/Cppproject/test/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
+  "F:/code/cppproject/nodeJudge/Src/NodeRecognition.cpp" "F:/code/cppproject/nodeJudge/build/CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj"
+  "F:/code/cppproject/nodeJudge/Src/main.cpp" "F:/code/cppproject/nodeJudge/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

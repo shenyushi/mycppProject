@@ -1,12 +1,12 @@
 [
 {
-  "directory": "F:/code/Cppproject/test/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\car.cpp.obj -c F:\\code\\Cppproject\\test\\Src\\car.cpp",
-  "file": "F:/code/Cppproject/test/Src/car.cpp"
+  "directory": "F:/code/cppproject/nodeJudge/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\NodeRecognition.cpp.obj -c F:\\code\\cppproject\\nodeJudge\\Src\\NodeRecognition.cpp",
+  "file": "F:/code/cppproject/nodeJudge/Src/NodeRecognition.cpp"
 },
 {
-  "directory": "F:/code/Cppproject/test/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\Cppproject\\test\\Src\\main.cpp",
-  "file": "F:/code/Cppproject/test/Src/main.cpp"
+  "directory": "F:/code/cppproject/nodeJudge/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\cppproject\\nodeJudge\\Src\\main.cpp",
+  "file": "F:/code/cppproject/nodeJudge/Src/main.cpp"
 }
 ]

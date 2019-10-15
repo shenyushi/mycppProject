@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = E:\Cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
+RM = E:\Cmake\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\code\Cppproject\test
+CMAKE_SOURCE_DIR = F:\code\cppproject\nodeJudge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\code\Cppproject\test\build
+CMAKE_BINARY_DIR = F:\code\cppproject\nodeJudge\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = F:\code\Cppproject\test\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\Cmake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\Cmake\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\code\Cppproject\test\build\CMakeFiles F:\code\Cppproject\test\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\code\cppproject\nodeJudge\build\CMakeFiles F:\code\cppproject\nodeJudge\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\code\Cppproject\test\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\code\cppproject\nodeJudge\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ cmake-test/fast:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/build
 .PHONY : cmake-test/fast
 
-Src/car.obj: Src/car.cpp.obj
+Src/NodeRecognition.obj: Src/NodeRecognition.cpp.obj
 
-.PHONY : Src/car.obj
+.PHONY : Src/NodeRecognition.obj
 
 # target to build an object file
-Src/car.cpp.obj:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/car.cpp.obj
-.PHONY : Src/car.cpp.obj
+Src/NodeRecognition.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj
+.PHONY : Src/NodeRecognition.cpp.obj
 
-Src/car.i: Src/car.cpp.i
+Src/NodeRecognition.i: Src/NodeRecognition.cpp.i
 
-.PHONY : Src/car.i
+.PHONY : Src/NodeRecognition.i
 
 # target to preprocess a source file
-Src/car.cpp.i:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/car.cpp.i
-.PHONY : Src/car.cpp.i
+Src/NodeRecognition.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.i
+.PHONY : Src/NodeRecognition.cpp.i
 
-Src/car.s: Src/car.cpp.s
+Src/NodeRecognition.s: Src/NodeRecognition.cpp.s
 
-.PHONY : Src/car.s
+.PHONY : Src/NodeRecognition.s
 
 # target to generate assembly for a file
-Src/car.cpp.s:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/car.cpp.s
-.PHONY : Src/car.cpp.s
+Src/NodeRecognition.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.s
+.PHONY : Src/NodeRecognition.cpp.s
 
 Src/main.obj: Src/main.cpp.obj
 
@@ -185,9 +185,9 @@ help:
 	@echo ... cmake-test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Src/car.obj
-	@echo ... Src/car.i
-	@echo ... Src/car.s
+	@echo ... Src/NodeRecognition.obj
+	@echo ... Src/NodeRecognition.i
+	@echo ... Src/NodeRecognition.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s

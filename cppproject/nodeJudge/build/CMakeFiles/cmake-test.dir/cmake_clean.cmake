@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cmake-test.dir/Src/car.cpp.obj"
+  "CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj"
   "CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
   "bin/cmake-test.exe"
   "bin/cmake-test.exe.manifest"
