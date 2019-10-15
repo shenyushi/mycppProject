@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/NodeRecognition.h
+iostream
+-
+string
+-
+
+F:/code/cppproject/NodeRecognition/Src/main.cpp
+iostream
+-
+cstdlib
+-
+NodeRecognition.h
+F:/code/cppproject/NodeRecognition/Src/NodeRecognition.h
+
