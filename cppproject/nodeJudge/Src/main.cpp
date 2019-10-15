@@ -12,5 +12,6 @@ int main()
             break;
         nr.getData(str);
     }
+    nr.print();
     return 0;
 }

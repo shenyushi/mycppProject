@@ -1,0 +1,3 @@
+F:/code/cppproject/NodeRecognition/build/CMakeFiles/cmake-test.dir
+F:/code/cppproject/NodeRecognition/build/CMakeFiles/edit_cache.dir
+F:/code/cppproject/NodeRecognition/build/CMakeFiles/rebuild_cache.dir
