@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/car.hpp
+iostream
+-
+string
+-
+
+F:/code/Cppproject/test/Src/car.cpp
+car.hpp
+F:/code/Cppproject/test/Src/car.hpp
+iostream
+-
+
+F:/code/Cppproject/test/Src/main.cpp
+iostream
+-
+cstdlib
+-
+car.hpp
+F:/code/Cppproject/test/Src/car.hpp
+
