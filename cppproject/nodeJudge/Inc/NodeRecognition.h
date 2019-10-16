@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int maxn = 100;
+const int maxn = 300;
 
 class NodeRecognition
 {
@@ -17,7 +17,6 @@ private:
     int find(int n);
 
 public:
-    NodeRecognition();
-    void getData(string str);
+    NodeRecognition(string str);
     void print();
 };

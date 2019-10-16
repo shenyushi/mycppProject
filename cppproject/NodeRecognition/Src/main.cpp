@@ -1,12 +1,13 @@
 #include <iostream>
-#include <cstdlib>
+#include <string>
 #include "NodeRecognition.h"
 
 using namespace std;
 
 int main()
 {
-    cout<<"Hello World!"<<endl;
-
+    string str;
+    getline(cin,str);
+    NodeRecognition nr(str);
     return 0;
 }

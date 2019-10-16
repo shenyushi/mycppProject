@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/code/cppproject/NodeRecognition/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\car.cpp.obj -c F:\\code\\cppproject\\NodeRecognition\\Src\\car.cpp",
-  "file": "F:/code/cppproject/NodeRecognition/Src/car.cpp"
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\NodeRecognition.cpp.obj -c F:\\code\\cppproject\\NodeRecognition\\Src\\NodeRecognition.cpp",
+  "file": "F:/code/cppproject/NodeRecognition/Src/NodeRecognition.cpp"
 },
 {
   "directory": "F:/code/cppproject/NodeRecognition/build",

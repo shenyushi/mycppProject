@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-NodeRecognition::NodeRecognition()
+NodeRecognition::NodeRecognition(string str)
 {
     for (int i = 0; i < maxn; ++i)
     {
@@ -11,38 +11,49 @@ NodeRecognition::NodeRecognition()
         wei[i] = i;
         num[i] = 1;
     }
-}
-
-void NodeRecognition::getData(string str)
-{
-    int n1 = 0, n2 = 0, i;
-    for (i = 1; str[i] != ' ' && str[i] != '>'; ++i)
-        n1 = n1 * 10 + str[i] - '0';
-    if (str[i] == '>')
-        n2 = -1;
-    else
-        for (++i; str[i] != '>'; ++i)
-            n2 = n2 * 10 + str[i] - '0';
-    if (!key[n1])
-        key[n1] = n1;
-    if (!key[n2])
-        key[n2] = n2;
-    int tmp = find(n1);
-    if (n2 != -1)
+    int n1 = 0, n2 = 0;
+    bool first = true;
+    int tmp;
+    for (int i = 0; i < str.size(); ++i)
     {
-        if (tmp == find(n2))
-            type[n2] = 3;
-        else
+        switch (str[i])
         {
-            ++childN[n2];
-            if (childN[n2] >= 2 && type[n2] < 2)
-                type[n2] = 2;
-            else if (childN[n2] < 2 && !type[n2])
-                type[n2] = 1;
+        case '<':
+            first = true;
+            break;
+        case '>':
+            if (!key[n1])
+                key[n1] = n1;
+            if (!key[n2])
+                key[n2] = n2;
+            tmp = find(n1);
+            if (n2 != -1)
+            {
+                if (tmp == find(n2))
+                    type[n2] = 3;
+                else
+                {
+                    ++childN[n2];
+                    if (childN[n2] >= 2 && type[n2] < 2)
+                        type[n2] = 2;
+                    else if (childN[n2] < 2 && !type[n2])
+                        type[n2] = 1;
+                }
+                key[n1] = n2;
+                wei[n2] += n1;
+                ++num[n2];
+            }
+            n1 = n2 = 0;
+            break;
+        case ' ':
+            first = false;
+            break;
+        default:
+            if (first)
+                n1 = n1 * 10 + str[i] - '0';
+            else
+                n2 = n2 * 10 + str[i] - '0';
         }
-        key[n1] = n2;
-        wei[n2] += n1;
-        ++num[n2];
     }
 }
 

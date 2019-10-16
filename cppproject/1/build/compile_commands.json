@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/code/cppproject/1/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\NodeRecognition.cpp.obj -c F:\\code\\cppproject\\1\\Src\\NodeRecognition.cpp",
+  "file": "F:/code/cppproject/1/Src/NodeRecognition.cpp"
+},
+{
+  "directory": "F:/code/cppproject/1/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\code\\cppproject\\1\\Src\\main.cpp",
+  "file": "F:/code/cppproject/1/Src/main.cpp"
+}
+]

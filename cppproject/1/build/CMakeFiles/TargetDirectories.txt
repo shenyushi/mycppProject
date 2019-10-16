@@ -1,0 +1,3 @@
+F:/code/cppproject/1/build/CMakeFiles/cmake-test.dir
+F:/code/cppproject/1/build/CMakeFiles/edit_cache.dir
+F:/code/cppproject/1/build/CMakeFiles/rebuild_cache.dir

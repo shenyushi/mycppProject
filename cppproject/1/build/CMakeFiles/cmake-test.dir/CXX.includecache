@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/NodeRecognition.h
+string
+-
+map
+-
+
+F:/code/cppproject/1/Src/NodeRecognition.cpp
+NodeRecognition.h
+F:/code/cppproject/1/Src/NodeRecognition.h
+vector
+-
+algorithm
+-
+iostream
+-
+

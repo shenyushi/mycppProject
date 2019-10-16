@@ -56,19 +56,19 @@ include CMakeFiles/cmake-test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmake-test.dir/flags.make
 
-CMakeFiles/cmake-test.dir/Src/car.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
-CMakeFiles/cmake-test.dir/Src/car.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
-CMakeFiles/cmake-test.dir/Src/car.cpp.obj: ../Src/car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\code\cppproject\NodeRecognition\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake-test.dir/Src/car.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\car.cpp.obj -c F:\code\cppproject\NodeRecognition\Src\car.cpp
+CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
+CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
+CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj: ../Src/NodeRecognition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\code\cppproject\NodeRecognition\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\NodeRecognition.cpp.obj -c F:\code\cppproject\NodeRecognition\Src\NodeRecognition.cpp
 
-CMakeFiles/cmake-test.dir/Src/car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake-test.dir/Src/car.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\code\cppproject\NodeRecognition\Src\car.cpp > CMakeFiles\cmake-test.dir\Src\car.cpp.i
+CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\code\cppproject\NodeRecognition\Src\NodeRecognition.cpp > CMakeFiles\cmake-test.dir\Src\NodeRecognition.cpp.i
 
-CMakeFiles/cmake-test.dir/Src/car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/car.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\code\cppproject\NodeRecognition\Src\car.cpp -o CMakeFiles\cmake-test.dir\Src\car.cpp.s
+CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\code\cppproject\NodeRecognition\Src\NodeRecognition.cpp -o CMakeFiles\cmake-test.dir\Src\NodeRecognition.cpp.s
 
 CMakeFiles/cmake-test.dir/Src/main.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
 CMakeFiles/cmake-test.dir/Src/main.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
@@ -86,13 +86,13 @@ CMakeFiles/cmake-test.dir/Src/main.cpp.s: cmake_force
 
 # Object files for target cmake-test
 cmake__test_OBJECTS = \
-"CMakeFiles/cmake-test.dir/Src/car.cpp.obj" \
+"CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj" \
 "CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
 
 # External object files for target cmake-test
 cmake__test_EXTERNAL_OBJECTS =
 
-bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/car.cpp.obj
+bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/NodeRecognition.cpp.obj
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/main.cpp.obj
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/build.make
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/linklibs.rsp
